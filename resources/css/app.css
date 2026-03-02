@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn-primary {
+        @apply px-4 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 transition-colors;
+    }
+    .btn-secondary {
+        @apply px-4 py-2 bg-gray-700 text-white rounded-md hover:bg-gray-800 transition-colors;
+    }
+}
+
+:root {
+    --color-bg-primary: #0F0F0F;
+    --color-bg-secondary: #1A1A1A;
+    --color-bg-tertiary: #262626;
+    --color-accent: #F5F5F5;
+    --color-brand: #6366F1;
+    --color-brand-hover: #818CF8;
+}
+
+body.dark-mode {
+    color-scheme: dark;
+}
