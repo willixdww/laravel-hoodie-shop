@@ -1,4 +1,4 @@
-<x-layout.app>
+<x-app-layout>
     <div class="min-h-screen bg-dark-900">
         <!-- Hero Section -->
         <div class="relative bg-dark-800 overflow-hidden">

@@ -1,4 +1,4 @@
-<x-layout.app>
+<x-app-layout>
     <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div class="bg-dark-800 rounded-2xl p-8 text-center shadow-2xl">
             <div class="w-20 h-20 bg-green-500 rounded-full flex items-center justify-center mx-auto mb-6">
