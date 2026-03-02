@@ -10,7 +10,7 @@
                 <!-- Product Details -->
                 <div>
                     <div class="mb-4">
-                        <a href="{{ route('home') }}" class="text-dark-400 hover:text-brand-DEFAULT transition-colors">
+                        <a href="{{ route('home') }}" class="text-dark-400 hover:text-brand transition-colors">
                             ← Zurück zum Shop
                         </a>
                     </div>
@@ -18,7 +18,7 @@
                     <h1 class="text-3xl font-bold text-white mb-4">{{ $product->name }}</h1>
                     
                     <div class="flex items-center mb-6">
-                        <span class="text-4xl font-bold text-brand-DEFAULT mr-4">
+                        <span class="text-4xl font-bold text-brand mr-4">
                             {{ number_format($product->price, 2) }} €
                         </span>
                         @if($product->stock > 0)
@@ -75,7 +75,7 @@
                                 </button>
                             </div>
                             <input type="hidden" name="product_id" value="{{ $product->id }}">
-                            <button type="submit" class="flex-1 bg-brand-DEFAULT hover:bg-brand-light text-white font-bold py-3 px-6 rounded-lg transition-colors">
+                            <button type="submit" class="flex-1 bg-brand hover:bg-brand-light text-white font-bold py-3 px-6 rounded-lg transition-colors">
                                 In den Warenkorb
                             </button>
                         </form>

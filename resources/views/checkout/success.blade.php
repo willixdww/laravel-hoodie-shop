@@ -9,7 +9,7 @@
             
             <h1 class="text-3xl font-bold text-white mb-4">Vielen Dank für Ihre Bestellung!</h1>
             <p class="text-dark-300 mb-8 text-lg">
-                Ihre Bestellung mit der Nummer <span class="text-brand-DEFAULT font-bold">#{{ $order->id }}</span> wurde erfolgreich aufgegeben.
+                Ihre Bestellung mit der Nummer <span class="text-brand font-bold">#{{ $order->id }}</span> wurde erfolgreich aufgegeben.
             </p>
 
             <div class="bg-dark-700 rounded-xl p-6 mb-8">
@@ -29,13 +29,13 @@
                     </div>
                     <div class="flex justify-between">
                         <span class="text-dark-300">Gesamtbetrag:</span>
-                        <span class="text-brand-DEFAULT font-bold text-xl">{{ number_format($order->total_amount * 1.19, 2) }} €</span>
+                        <span class="text-brand font-bold text-xl">{{ number_format($order->total_amount * 1.19, 2) }} €</span>
                     </div>
                 </div>
             </div>
 
             <div class="space-y-4">
-                <a href="{{ route('orders.index') }}" class="inline-block bg-brand-DEFAULT hover:bg-brand-light text-white font-bold py-3 px-8 rounded-lg transition-colors">
+                <a href="{{ route('orders.index') }}" class="inline-block bg-brand hover:bg-brand-light text-white font-bold py-3 px-8 rounded-lg transition-colors">
                     Meine Bestellungen
                 </a>
                 <a href="{{ route('home') }}" class="inline-block bg-dark-700 hover:bg-dark-600 text-white font-medium py-3 px-8 rounded-lg transition-colors">

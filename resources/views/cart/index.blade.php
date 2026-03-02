@@ -7,7 +7,7 @@
                 <div class="text-6xl mb-4">🛒</div>
                 <h2 class="text-2xl font-semibold text-white mb-4">Ihr Warenkorb ist leer</h2>
                 <p class="text-dark-300 mb-6">Schauen Sie sich unsere Produkte an und finden Sie etwas Besonderes für Sie.</p>
-                <a href="{{ route('home') }}" class="inline-block bg-brand-DEFAULT hover:bg-brand-light text-white font-bold py-3 px-6 rounded-lg transition-colors">
+                <a href="{{ route('home') }}" class="inline-block bg-brand hover:bg-brand-light text-white font-bold py-3 px-6 rounded-lg transition-colors">
                     Produkte ansehen
                 </a>
             </div>
@@ -35,7 +35,7 @@
                                                     +
                                                 </button>
                                             </div>
-                                            <p class="text-brand-DEFAULT font-bold text-xl">
+                                            <p class="text-brand font-bold text-xl">
                                                 {{ number_format($item->product->price * $item->quantity, 2) }} €
                                             </p>
                                         </div>
@@ -75,7 +75,7 @@
                             </div>
                         </div>
 
-                        <a href="{{ route('checkout.index') }}" class="block w-full bg-brand-DEFAULT hover:bg-brand-light text-white text-center font-bold py-4 rounded-lg transition-colors mb-4">
+                        <a href="{{ route('checkout.index') }}" class="block w-full bg-brand hover:bg-brand-light text-white text-center font-bold py-4 rounded-lg transition-colors mb-4">
                             Zur Kasse
                         </a>
                         

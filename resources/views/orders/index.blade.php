@@ -7,7 +7,7 @@
                 <div class="text-6xl mb-4">📦</div>
                 <h2 class="text-2xl font-semibold text-white mb-4">Noch keine Bestellungen</h2>
                 <p class="text-dark-300 mb-6">Schauen Sie sich unsere Produkte an und tätigen Sie Ihre erste Bestellung.</p>
-                <a href="{{ route('home') }}" class="inline-block bg-brand-DEFAULT hover:bg-brand-light text-white font-bold py-3 px-6 rounded-lg transition-colors">
+                <a href="{{ route('home') }}" class="inline-block bg-brand hover:bg-brand-light text-white font-bold py-3 px-6 rounded-lg transition-colors">
                     Produkte ansehen
                 </a>
             </div>
@@ -66,7 +66,7 @@
                         </div>
 
                         <div class="flex items-center justify-end gap-4">
-                            <a href="#" class="text-dark-400 hover:text-brand-DEFAULT text-sm">
+                            <a href="#" class="text-dark-400 hover:text-brand text-sm">
                                 Rechnung herunterladen
                             </a>
                         </div>

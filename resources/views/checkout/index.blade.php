@@ -13,38 +13,38 @@
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
                             <div>
                                 <label for="first_name" class="block text-sm font-medium text-dark-400 mb-2">Vorname</label>
-                                <input type="text" id="first_name" name="first_name" required class="w-full bg-dark-700 border border-dark-600 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-brand-DEFAULT">
+                                <input type="text" id="first_name" name="first_name" required class="w-full bg-dark-700 border border-dark-600 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-brand">
                             </div>
                             <div>
                                 <label for="last_name" class="block text-sm font-medium text-dark-400 mb-2">Nachname</label>
-                                <input type="text" id="last_name" name="last_name" required class="w-full bg-dark-700 border border-dark-600 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-brand-DEFAULT">
+                                <input type="text" id="last_name" name="last_name" required class="w-full bg-dark-700 border border-dark-600 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-brand">
                             </div>
                         </div>
 
                         <div class="mb-6">
                             <label for="email" class="block text-sm font-medium text-dark-400 mb-2">E-Mail-Adresse</label>
-                            <input type="email" id="email" name="email" required class="w-full bg-dark-700 border border-dark-600 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-brand-DEFAULT">
+                            <input type="email" id="email" name="email" required class="w-full bg-dark-700 border border-dark-600 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-brand">
                         </div>
 
                         <div class="mb-6">
                             <label for="address" class="block text-sm font-medium text-dark-400 mb-2">Straße und Hausnummer</label>
-                            <input type="text" id="address" name="address" required class="w-full bg-dark-700 border border-dark-600 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-brand-DEFAULT">
+                            <input type="text" id="address" name="address" required class="w-full bg-dark-700 border border-dark-600 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-brand">
                         </div>
 
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
                             <div>
                                 <label for="postal_code" class="block text-sm font-medium text-dark-400 mb-2">PLZ</label>
-                                <input type="text" id="postal_code" name="postal_code" required class="w-full bg-dark-700 border border-dark-600 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-brand-DEFAULT">
+                                <input type="text" id="postal_code" name="postal_code" required class="w-full bg-dark-700 border border-dark-600 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-brand">
                             </div>
                             <div>
                                 <label for="city" class="block text-sm font-medium text-dark-400 mb-2">Stadt</label>
-                                <input type="text" id="city" name="city" required class="w-full bg-dark-700 border border-dark-600 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-brand-DEFAULT">
+                                <input type="text" id="city" name="city" required class="w-full bg-dark-700 border border-dark-600 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-brand">
                             </div>
                         </div>
 
                         <div class="mb-6">
                             <label for="country" class="block text-sm font-medium text-dark-400 mb-2">Land</label>
-                            <select id="country" name="country" required class="w-full bg-dark-700 border border-dark-600 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-brand-DEFAULT">
+                            <select id="country" name="country" required class="w-full bg-dark-700 border border-dark-600 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-brand">
                                 <option value="">Bitte wählen</option>
                                 <option value="DE">Deutschland</option>
                                 <option value="AT">Österreich</option>
@@ -71,7 +71,7 @@
                         
                         <div class="space-y-4">
                             <label class="flex items-start gap-4 p-4 bg-dark-700 rounded-lg cursor-pointer hover:bg-dark-600 transition-colors">
-                                <input type="radio" name="payment_method" value="paypal" class="mt-1 w-5 h-5 text-brand-DEFAULT focus:ring-brand-DEFAULT" checked>
+                                <input type="radio" name="payment_method" value="paypal" class="mt-1 w-5 h-5 text-brand focus:ring-brand" checked>
                                 <div>
                                     <span class="text-white font-medium">PayPal</span>
                                     <p class="text-dark-400 text-sm mt-1">Bequem und sicher mit Ihrem PayPal-Konto bezahlen</p>
@@ -79,7 +79,7 @@
                             </label>
 
                             <label class="flex items-start gap-4 p-4 bg-dark-700 rounded-lg cursor-pointer hover:bg-dark-600 transition-colors">
-                                <input type="radio" name="payment_method" value="credit_card" class="mt-1 w-5 h-5 text-brand-DEFAULT focus:ring-brand-DEFAULT">
+                                <input type="radio" name="payment_method" value="credit_card" class="mt-1 w-5 h-5 text-brand focus:ring-brand">
                                 <div>
                                     <span class="text-white font-medium">Kreditkarte</span>
                                     <p class="text-dark-400 text-sm mt-1">Bezahlen Sie sicher mit Ihrer Kreditkarte</p>
@@ -87,7 +87,7 @@
                             </label>
 
                             <label class="flex items-start gap-4 p-4 bg-dark-700 rounded-lg cursor-pointer hover:bg-dark-600 transition-colors">
-                                <input type="radio" name="payment_method" value="invoice" class="mt-1 w-5 h-5 text-brand-DEFAULT focus:ring-brand-DEFAULT">
+                                <input type="radio" name="payment_method" value="invoice" class="mt-1 w-5 h-5 text-brand focus:ring-brand">
                                 <div>
                                     <span class="text-white font-medium">Rechnung</span>
                                     <p class="text-dark-400 text-sm mt-1">Bezahlen Sie nach Erhalt der Ware</p>
@@ -139,12 +139,12 @@
                         </div>
                     </div>
 
-                    <button type="button" onclick="submitCheckoutForm()" class="block w-full bg-brand-DEFAULT hover:bg-brand-light text-white text-center font-bold py-4 rounded-lg transition-colors mt-6">
+                    <button type="button" onclick="submitCheckoutForm()" class="block w-full bg-brand hover:bg-brand-light text-white text-center font-bold py-4 rounded-lg transition-colors mt-6">
                         Zahlungspflichtig bestellen
                     </button>
                     
                     <p class="text-center text-dark-400 text-sm mt-4">
-                        Durch Klicken auf "Zahlungspflichtig bestellen" erklären Sie sich mit unseren <a href="#" class="text-brand-DEFAULT hover:underline">AGB</a> und <a href="#" class="text-brand-DEFAULT hover:underline">Datenschutzrichtlinien</a> einverstanden.
+                        Durch Klicken auf "Zahlungspflichtig bestellen" erklären Sie sich mit unseren <a href="#" class="text-brand hover:underline">AGB</a> und <a href="#" class="text-brand hover:underline">Datenschutzrichtlinien</a> einverstanden.
                     </p>
                 </div>
             </div>
